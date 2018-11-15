@@ -63,16 +63,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/admin/useradd.jsp"> 添加用户 </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/samples/register.html"> 未知功能 </a>
-                    </li>
                 </ul>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../../static/admin/pages/forms/basic_elements.html">
+            <a class="nav-link" href="/admin/orderlist.jsp">
                 <i class="menu-icon mdi mdi-backup-restore"></i>
-                <span class="menu-title">Form elements</span>
+                <span class="menu-title">订单列表</span>
             </a>
         </li>
         <li class="nav-item">
