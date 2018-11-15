@@ -13,6 +13,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <body>
-        <p>Java版本：<% out.print(version); %></p>
+        <p>用于测试提交</p>
     </body>
 </html>
