@@ -96,7 +96,7 @@ $(function () {
             $(this).next().css("display", "none");
             $(this).css("display", "none");
             jss();//改变按钮样式
-            return
+            return;
         }
     });
     function add(data) {
@@ -123,16 +123,18 @@ $(function () {
         $(".ms2").click(function () {
             var a = parseInt($(this).next().text());
             var n = parseInt($(this).next().text())-1;
-            var s = parseFloat($("#totalpriceshow").text())
+            var s = parseFloat($("#totalpriceshow").text());
+            alert(data[4]);
             if (n == 0) {
                 $(this).parent().parent().remove();
                 $(".up1").hide()
             }
             $(this).next().text(n);
             /*问题*/
-            $(this).parent().prev().children("span:nth-child(2)").text(a*n);
+            $(this).parent().prev().children("span:nth-child(2)").text(n*data[4]);
             $("#totalcountshow").text(parseInt($("#totalcountshow").text())-1);
-            $("#totalpriceshow").text(s-a);
+            // $("#totalpriceshow").text(s-a);
+            $("#totalpriceshow").text(s-data[4]);
             if(parseFloat($("#totalcountshow").text())==0){
                 $(".shopcart-list").hide();
             }
@@ -184,3 +186,61 @@ $(function () {
     });
 
 });
+
+
+
+//下面重写的
+var data = [];
+var addButtons = document.getElementsByClassName("add");
+var subButtons = document.getElementsByClassName("minus");
+var prePrices = document.getElementsByClassName("price");
+var foodTypes = document.getElementsByClassName("list1");
+var foods = document.getElementsByClassName("foodName");
+
+function addfood(idx) {
+    console.log(idx);
+    var foodID = idx.getAttribute("id");
+    var foodPrice = parseFloat(idx.innerText);
+    var foodType = idx.innerText;
+    var foodName = idx.innerText;
+    if (data[foodName]){
+        //data[foodName]["name"] = foodName;
+        //data[foodName]["id"] = foodID;
+        data[foodName]["totalPrice"]  += foodPrice;
+        data[foodName]["count"] += 1;
+        //data[foodName]["foodType"] = foodTypes;
+    } else {
+        var stdData = {
+            "id": foodID,
+            "name": foodName,
+            "count": 1,
+            "foodType": foodType,
+            "totalPrice": foodPrice
+        };
+        data[foodName] = stdData;
+    }
+    console.log(data);
+}
+function subfood(idx) {
+    var foodID = idx.getAttribute("id");
+    var foodPrice = parseFloat(idx.innerText);
+    var foodName = idx.innerText;
+    if (data[foodName] && data[foodName]["count"] > 1) {
+        data[foodName]["count"]--;
+        data[foodName]["totalPrice"] -= foodPrice;
+    } else {
+        data = data.splice(foodName, 1);
+    }
+    console.log(data);
+}
+
+for (var i = 0; i < addButtons.length; i++) {
+    addButtons[i].addEventListener("click", function () {
+        addfood(this);
+    });
+}
+for (var j = 0; j < subButtons.length; j++) {
+    subButtons[j].addEventListener("click", function () {
+        subfood(this);
+    });
+}

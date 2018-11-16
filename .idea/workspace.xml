@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b03d44-b882-482c-891d-efa05b23adc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home/parts/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home/parts/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home/static/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home/static/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/7th_YiTuCup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/home/js/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/YiTuCup_war_exploded/test.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home/parts/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiTuCup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YiTuCup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home/parts/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home/parts/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home/static/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home/static/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/home/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/home/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/home/js/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/js/add.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,30 +83,34 @@
         <counts>
           <entry key="htm" value="1" />
           <entry key="java" value="1" />
-          <entry key="jsp" value="11" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="JSP" value="11" />
+          <entry key="JSP" value="13" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="htm" value="1" />
           <entry key="java" value="2" />
-          <entry key="jsp" value="422" />
-          <entry key="txt" value="10" />
+          <entry key="js" value="1922" />
+          <entry key="jsp" value="476" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="JSP" value="422" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JSP" value="476" />
+          <entry key="JavaScript" value="1922" />
+          <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -127,20 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/home/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="283" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -148,44 +142,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/parts/bottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+            <state relative-caret-position="178">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
+        <entry file="file://$PROJECT_DIR$/web/static/home/js/add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="158" column="94" lean-forward="true" selection-start-line="158" selection-start-column="94" selection-end-line="158" selection-end-column="94" />
+            <state relative-caret-position="-294">
+              <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#div#2;n#li#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/parts/top.jsp">
+        <entry file="file://$PROJECT_DIR$/web/static/home/js/style.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/static/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/static/header.jsp">
+        <entry file="file://$PROJECT_DIR$/web/static/home/js/vue.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/home/js/jquery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -194,16 +207,7 @@
         <entry file="file://$PROJECT_DIR$/web/home/static/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6365">
-              <caret line="335" column="4" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="57" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -215,6 +219,7 @@
       <list>
         <option value="jsf" />
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -222,6 +227,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>option</find>
+      <find>accountpric</find>
+      <find>alert</find>
+      <find>con</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -267,12 +275,15 @@
         <option value="$PROJECT_DIR$/web/admin/static/left.jsp" />
         <option value="$PROJECT_DIR$/web/admin/orderlist.jsp" />
         <option value="$PROJECT_DIR$/web/home/static/header.jsp" />
-        <option value="$PROJECT_DIR$/web/home/static/footer.jsp" />
         <option value="$PROJECT_DIR$/web/home/static/top.jsp" />
-        <option value="$PROJECT_DIR$/web/home/parts/main.jsp" />
         <option value="$PROJECT_DIR$/web/static/home/index.htm" />
         <option value="$PROJECT_DIR$/web/home/parts/bottom.jsp" />
         <option value="$PROJECT_DIR$/web/home/index.jsp" />
+        <option value="$PROJECT_DIR$/web/home/parts/main.jsp" />
+        <option value="$PROJECT_DIR$/web/static/home/js/add.js" />
+        <option value="$PROJECT_DIR$/web/home/static/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/static/home/js/style.js" />
+        <option value="$PROJECT_DIR$/web/home/parts/foodlist.jsp" />
       </list>
     </option>
   </component>
@@ -301,10 +312,11 @@
       <path value="$PROJECT_DIR$/web/static/admin/vendors/tinymce/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="943" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="682" />
+    <option name="y" value="190" />
+    <option name="width" value="1220" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -325,25 +337,7 @@
             <path>
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
               <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
@@ -367,16 +361,7 @@
             </path>
             <path>
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -388,7 +373,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542305505923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542347732606" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -674,7 +659,7 @@
       <workItem from="1542251131736" duration="11943000" />
       <workItem from="1542267294733" duration="18664000" />
       <workItem from="1542295220670" duration="503000" />
-      <workItem from="1542295811661" duration="6253000" />
+      <workItem from="1542295811661" duration="24198000" />
     </task>
     <task id="LOCAL-00001" summary="2018.11.15更新">
       <created>1542292506291</created>
@@ -711,17 +696,23 @@
       <option name="project" value="LOCAL" />
       <updated>1542298557334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新了一大波&#10;写了简单的点餐h5">
+      <created>1542305563914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542305563914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38321000" />
+    <option name="totallyTimeSpent" value="56266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="943" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="943" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21672772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13980465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -764,7 +755,8 @@
     <MESSAGE value="2018.11.15更新" />
     <MESSAGE value="2018.11.15更新3" />
     <MESSAGE value="添加了订单列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了订单列表" />
+    <MESSAGE value="更新了一大波&#10;写了简单的点餐h5" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了一大波&#10;写了简单的点餐h5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.xhtml" />
@@ -907,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6365">
@@ -935,45 +920,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/static/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/parts/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="158" column="94" lean-forward="true" selection-start-line="158" selection-start-column="94" selection-end-line="158" selection-end-column="94" />
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/home/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="283" selection-end-column="6" />
+          <caret line="239" selection-start-line="239" selection-end-line="283" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home/parts/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="178">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/static/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#div#2;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/parts/foodlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1043,6 +1080,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>7th-YiTuCup</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

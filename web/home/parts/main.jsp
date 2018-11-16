@@ -19,7 +19,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="00">红烧牛肉</h4>
+                        <h4 id="1" class="foodName">红烧牛肉</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>28</b>
@@ -39,7 +39,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="01">辣子鸡</h4>
+                        <h4 id="2" class="foodName">辣子鸡</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>25</b>
@@ -63,7 +63,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="10">宫保鸡丁</h4>
+                        <h4 id="3" class="foodName">宫保鸡丁</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>26</b>
@@ -83,7 +83,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="11">回锅肉</h4>
+                        <h4 id="4" class="foodName">回锅肉</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>24.5</b>
@@ -103,7 +103,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="12">青椒肉丝</h4>
+                        <h4 id="5" class="foodName">青椒肉丝</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>24</b>
@@ -123,7 +123,7 @@
                 <li>
                     <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
                     <div class="menu-txt">
-                        <h4 data-icon="13">京酱肉丝</h4>
+                        <h4 id="6" class="foodName">京酱肉丝</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
                             <b>￥</b><b>27</b>
