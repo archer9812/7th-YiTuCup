@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="main">
     <div class="left-menu"  id="left">
-        <ul>
+        <ul id="menutitle">
             <li><span>营养套餐</span></li>
             <li><span>实惠炒菜</span></li>
         </ul>
     </div>
-    <div class="con">
+    <div id="menu" class="con">
         <div class="right-con con-active" style="display: none;">
             <ul>
                 <li>

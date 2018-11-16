@@ -7,15 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b03d44-b882-482c-891d-efa05b23adc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/7th_YiTuCup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/home/js/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/CDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/CookieList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/HTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/HTTPTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPropertyIgnore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPropertyName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONStringer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/JSONWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/json/XMLTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/org/json/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/org/json/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/parts/foods.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YiTuCup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YiTuCup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/home/parts/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home/parts/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/home/static/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home/static/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/home/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/home/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/home/js/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/js/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/home/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/home/js/style.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,10 +95,11 @@
     <session id="712978221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,14 +107,14 @@
           <entry key="htm" value="1" />
           <entry key="java" value="1" />
           <entry key="js" value="4" />
-          <entry key="jsp" value="13" />
+          <entry key="jsp" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="JSP" value="13" />
+          <entry key="JSP" value="16" />
           <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
@@ -99,18 +122,18 @@
         <counts>
           <entry key="htm" value="1" />
           <entry key="java" value="2" />
-          <entry key="js" value="1922" />
-          <entry key="jsp" value="476" />
-          <entry key="txt" value="30" />
+          <entry key="js" value="2778" />
+          <entry key="jsp" value="1034" />
+          <entry key="txt" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="JSP" value="476" />
-          <entry key="JavaScript" value="1922" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="JSP" value="1034" />
+          <entry key="JavaScript" value="2778" />
+          <entry key="PLAIN_TEXT" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -122,27 +145,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/parts/bottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="589">
               <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
@@ -151,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/home/js/add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+            <state relative-caret-position="2683">
+              <caret line="153" column="40" lean-forward="true" selection-start-line="153" selection-start-column="40" selection-end-line="153" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#2;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#2;n#li#0;n#!!top" expanded="true" />
@@ -163,10 +168,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/YiTuCup_war_exploded/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/home/js/style.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="630">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,11 +211,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="31">
+              <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -208,6 +225,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/parts/top.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/home/parts/foods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -230,6 +265,7 @@
       <find>accountpric</find>
       <find>alert</find>
       <find>con</find>
+      <find>left</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -279,11 +315,12 @@
         <option value="$PROJECT_DIR$/web/static/home/index.htm" />
         <option value="$PROJECT_DIR$/web/home/parts/bottom.jsp" />
         <option value="$PROJECT_DIR$/web/home/index.jsp" />
-        <option value="$PROJECT_DIR$/web/home/parts/main.jsp" />
         <option value="$PROJECT_DIR$/web/static/home/js/add.js" />
         <option value="$PROJECT_DIR$/web/home/static/footer.jsp" />
-        <option value="$PROJECT_DIR$/web/static/home/js/style.js" />
         <option value="$PROJECT_DIR$/web/home/parts/foodlist.jsp" />
+        <option value="$PROJECT_DIR$/web/home/parts/main.jsp" />
+        <option value="$PROJECT_DIR$/web/home/parts/foods.jsp" />
+        <option value="$PROJECT_DIR$/web/static/home/js/style.js" />
       </list>
     </option>
   </component>
@@ -312,11 +349,10 @@
       <path value="$PROJECT_DIR$/web/static/admin/vendors/tinymce/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="682" />
-    <option name="y" value="190" />
-    <option name="width" value="1220" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -326,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,6 +372,11 @@
             <path>
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
               <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,15 +389,22 @@
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
               <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7th-YiTuCup" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="7th-YiTuCup" type="b2602c69:ProjectViewProjectNode" />
@@ -368,16 +415,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542347732606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542366211235" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -659,7 +707,8 @@
       <workItem from="1542251131736" duration="11943000" />
       <workItem from="1542267294733" duration="18664000" />
       <workItem from="1542295220670" duration="503000" />
-      <workItem from="1542295811661" duration="24198000" />
+      <workItem from="1542295811661" duration="24371000" />
+      <workItem from="1542348013610" duration="8153000" />
     </task>
     <task id="LOCAL-00001" summary="2018.11.15更新">
       <created>1542292506291</created>
@@ -703,16 +752,23 @@
       <option name="project" value="LOCAL" />
       <updated>1542305563914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="重写js">
+      <created>1542347860053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542347860053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56266000" />
+    <option name="totallyTimeSpent" value="64592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="943" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="943" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13980465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14102565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -756,7 +812,8 @@
     <MESSAGE value="2018.11.15更新3" />
     <MESSAGE value="添加了订单列表" />
     <MESSAGE value="更新了一大波&#10;写了简单的点餐h5" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了一大波&#10;写了简单的点餐h5" />
+    <MESSAGE value="重写js" />
+    <option name="LAST_COMMIT_MESSAGE" value="重写js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.xhtml" />
@@ -781,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1014">
           <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="36" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,13 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.jsp" />
     <entry file="file://$PROJECT_DIR$/web/admin/static/left.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -920,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/parts/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/home/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -934,51 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/parts/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/static/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/home/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/home/js/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#2;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#2;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#2;n#li#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/home/js/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/parts/foodlist.jsp" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -993,24 +987,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/parts/foodlist.jsp">
+    <entry file="file://$PROJECT_DIR$/web/home/parts/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="589">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/YiTuCup_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/parts/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/static/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/home/js/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2683">
+          <caret line="153" column="40" lean-forward="true" selection-start-line="153" selection-start-column="40" selection-end-line="153" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#div#2;n#li#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/home/js/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="630">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home/parts/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="31">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/parts/foods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
