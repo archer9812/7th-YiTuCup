@@ -20,16 +20,9 @@
                 <p data-icon=""></p>
                 <p><span>¥ </span><span class="pce" style="font-size: 16px;font-weight: bold"></span></p>
                 <p>
-                    <span>已选：“</span>
-                    <span class="choseValue"></span>
-                    <span>”</span>
+                    <span>介绍：我们家的橙汁贼好喝</span>
                 </p>
             </dd>
-        </dl>
-        <dl class="subChose">
-            <dt>口味</dt>
-            <dd class="m-active">辣味</dd>
-            <dd>酸甜</dd>
         </dl>
         <dl class="subCount">
             <dt>购买数量</dt>

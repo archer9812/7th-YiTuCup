@@ -7,7 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="org.json.*" %>
-<%@ page import="java.util.Set" %>
 <%
     JSONObject foods = new JSONObject();
     JSONArray data = new JSONArray();

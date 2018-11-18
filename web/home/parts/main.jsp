@@ -22,16 +22,24 @@
                         <h4 id="1" class="foodName">红烧牛肉</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
-                            <b>￥</b><b>28</b>
+                            <b>￥</b><b>28.5</b>
                         </p><div class="btn">
-                        <button class="minus">
+                        <button id="sub01" onclick="sub(food01);" class="minus">
                             <strong></strong>
                         </button>
-                        <i>0</i>
-                        <button class="add">
+                        <i id="count01">0</i>
+                        <button onclick="add(food01);" class="add">
                             <strong></strong>
                         </button>
                         <i class="price">28</i>
+                        <script>
+                            var food01 = {
+                                "name":'<% out.print("红烧牛肉"); %>',
+                                "type":'<% out.print("家常菜"); %>',
+                                'id':'<% out.print("01"); %>',
+                                "price":<% out.print("28.5"); %>
+                            };
+                        </script>
                     </div>
 
                     </div>
@@ -42,16 +50,24 @@
                         <h4 id="2" class="foodName">辣子鸡</h4>
                         <p class="list1">家常菜</p>
                         <p class="list2">
-                            <b>￥</b><b>25</b>
+                            <b>￥</b><b>20</b>
                         </p><div class="btn">
-                        <button class="minus">
+                        <button id="sub02" onclick="sub(food02);" class="minus">
                             <strong></strong>
                         </button>
-                        <i>0</i>
-                        <button class="add">
+                        <i id="count02">0</i>
+                        <button onclick="add(food02);" class="add">
                             <strong></strong>
                         </button>
-                        <i class="price">25</i>
+                        <i class="price">20</i>
+                        <script>
+                            var food02 = {
+                                "name":'<% out.print("辣子鸡"); %>',
+                                "type":'<% out.print("家常菜"); %>',
+                                'id':'<% out.print("02"); %>',
+                                "price":<% out.print("20"); %>
+                            };
+                        </script>
                     </div>
 
                     </div>
