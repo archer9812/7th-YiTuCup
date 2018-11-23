@@ -7,12 +7,21 @@
 --%>
 <%@ page import="java.io.*,java.util.*" %>
 <%@ page import="Network.Getip" %>
+<%@ page import="db.*" %>
+<%@ page import="org.json.*" %>
+<%@ page import="java.sql.*" %>
 <%
     String version = System.getProperty("java.version");
 %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <body>
-        <p>用于测试提交123123</p>
+    <%
+
+        JSONObject dt = new JSONObject();
+        dt.put("admin_id", 13);
+        JSONObject rst = SearchData.getAdminlist_by_id(dt);
+        out.print(rst);
+    %>
     </body>
 </html>

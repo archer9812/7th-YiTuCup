@@ -15,11 +15,16 @@
             <div class="row w-100">
                 <div class="col-lg-4 mx-auto">
                     <h2 class="text-center mb-4">用户注册</h2>
+                    <%
+                        if(request.getAttribute("msg")!=null){
+                    %><h6 class="text-danger"><%out.println(request.getAttribute("msg"));%></h6><%
+                    }
+                    %>
                     <div class="auto-form-wrapper">
-                        <form action="#">
+                        <form action="regcheck.jsp" method="post">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="用户名">
+                                    <input name="username" type="text" class="form-control" placeholder="用户名">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -29,7 +34,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="密码">
+                                    <input name="password" type="password" class="form-control" placeholder="密码">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -39,7 +44,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="确认密码">
+                                    <input name="checkpass" type="password" class="form-control" placeholder="确认密码">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -49,7 +54,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="姓名">
+                                    <input name="email" type="text" class="form-control" placeholder="邮箱">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -59,7 +64,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="手机号码">
+                                    <input name="telephone" type="text" class="form-control" placeholder="手机号码">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>

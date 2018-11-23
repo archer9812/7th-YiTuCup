@@ -6,6 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page import="java.util.List"%>
+<%@page import="dbnew.PreFood"%>
+<%@ page import="dbnew.User" %>
+
 <html>
 <jsp:include page="static/header.jsp" flush="true"/>
 <body>
@@ -38,10 +42,11 @@
                                         </tr>
                                         </thead>
                                         <tbody>
+
                                         <tr>
-                                            <td>1</td>
-                                            <td>test</td>
-                                            <td>100.00</td>
+                                            <td></td>
+                                            <td><%=p.getName()%></td>
+                                            <td><%=p.getCount()%></td>
                                             <td>100 %</td>
                                             <td>2018.1.1</td>
                                             <td>

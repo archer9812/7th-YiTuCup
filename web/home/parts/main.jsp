@@ -17,7 +17,7 @@
         <div class="right-con con-active" style="display: none;">
             <ul>
                 <li>
-                    <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
+                    <div class="menu-img"><img src="../../static/home/img/foods1.jpeg" width="55" height="55"></div>
                     <div class="menu-txt">
                         <h4 id="1" class="foodName">红烧牛肉</h4>
                         <p class="list1">家常菜</p>
@@ -45,7 +45,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="menu-img"><img src="../../static/home/img/pic.png" width="55" height="55"></div>
+                    <div class="menu-img"><img src="../../static/home/img/foods2.jpeg" width="55" height="55"></div>
                     <div class="menu-txt">
                         <h4 id="2" class="foodName">辣子鸡</h4>
                         <p class="list1">家常菜</p>

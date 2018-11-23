@@ -1,4 +1,7 @@
-<%--
+<%@ page import="dbnew.PreFood" %>
+<%@ page import="java.util.List" %>
+<%@ page import="dbnew.User" %>
+<%@ page import="dbnew.Food" %><%--
   Created by IntelliJ IDEA.
   User: apple
   Date: 2018/11/15
@@ -30,28 +33,43 @@
                                             <tr>
                                                 <th>菜品编号</th>
                                                 <th>菜品名称</th>
-                                                <th>菜品类别</th>
                                                 <th>菜品库存</th>
                                                 <th>创建时间</th>
+                                                <th>菜品介绍</th>
                                                 <th>菜品状态</th>
                                                 <th>操作</th>
                                             </tr>
                                             </thead>
                                             <tbody>
+                                            <%
+                                                List<PreFood> list = Food.select();
+                                                System.out.println(555);
+                                                for(PreFood p : list){
+                                            %>
                                             <tr>
-                                                <td>000001</td>
-                                                <td>双合元饺子</td>
-                                                <td>家常菜</td>
-                                                <td>10</td>
-                                                <td>2018.1.1</td>
+                                                <td><%=p.getId()%></td>
+                                                <td><%=p.getName()%></td>
+                                                <td><%=p.getCount()%></td>
+                                                <td><%=p.getDatetime()%></td>
+                                                <td><%=p.getDetail()%></td>
+                                                <% if (p.getState()) {%>
                                                 <td>
                                                     <label class="badge badge-success">上架中</label>
                                                 </td>
+                                                <% }else {%>
+                                                <td>
+                                                    <label class="badge badge-success">未上架</label>
+                                                </td>
+                                                <% } %>
                                                 <td>
                                                     <button type="edit" class="btn btn-outline-info">编辑</button>
                                                     <button type="delete" class="btn btn-outline-danger">删除</button>
                                                 </td>
                                             </tr>
+                                            <%
+                                                    System.out.println(123);
+                                                }
+                                            %>
                                             </tbody>
                                         </table>
                                     </div>

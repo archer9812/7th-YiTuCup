@@ -30,7 +30,7 @@
         <i class="icon-keyboard_arrow_right"></i>
     </div>
     <div class="background">
-        <img width="100%" height="100%" src="../../static/home/img/seller_avatar_5F256px.jpg">
+        <img width="100%" height="100%" src="../../static/home/img/foodshead.jpg">
     </div>
     <div class="detail fade-transition" style="display: none;">
         <div class="detail-wrapper clearfix">

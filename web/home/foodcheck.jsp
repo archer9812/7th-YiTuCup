@@ -14,9 +14,6 @@
 <body>
 <%
     //{"foods":[{"id":1,"count":2},{"id":2,"count":2}], "total":199.00, "user":test}
-    public static boolean InsertFood(JSONObject obj) {
-
-    }
     //{"username":"","password":"!23123","balance":123.00,"state":true,"discount":100}
     //{"username":"23","password":"231"}
     //{"id":"","username":"","password":"!23123","balance":123.00,"state":true,"discount":100}

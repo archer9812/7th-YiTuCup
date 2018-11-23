@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.net.URLDecoder" %><%--
   Created by IntelliJ IDEA.
   User: apple
   Date: 2018/11/18
@@ -16,11 +16,16 @@
                 <div class="col-lg-4 mx-auto">
                     <div class="auto-form-wrapper">
                         <h4 style="text-align: center;">登陆后点餐</h4>
+                        <%
+                            if(request.getAttribute("msg")!=null){
+                        %><h6 class="text-danger"><%out.println(request.getAttribute("msg"));%></h6><%
+                            }
+                        %>
                         <form action="logincheck.jsp" method="post">
                             <div class="form-group">
                                 <label class="label">用户名</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Username">
+                                    <input name="username" type="text" class="form-control" placeholder="Username">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -31,7 +36,7 @@
                             <div class="form-group">
                                 <label class="label">密码</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="*********">
+                                    <input name="password" type="password" class="form-control" placeholder="*********">
                                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>

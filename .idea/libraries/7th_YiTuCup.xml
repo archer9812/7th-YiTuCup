@@ -9,10 +9,15 @@
       <root url="jar://$USER_HOME$/Downloads/libs/commons-logging-1.0.4.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/libs/ezmorph-1.0.3.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/libs/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/apache-tomcat-9.0.13/lib/jsp-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/apache-tomcat-9.0.13/lib/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/src" />
     </SOURCES>
+    <excluded>
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.13/lib" />
+    </excluded>
   </library>
 </component>
